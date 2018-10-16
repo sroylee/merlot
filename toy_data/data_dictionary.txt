@@ -1,0 +1,24 @@
+user_references.csv
+- uid: id of the user.
+- gh_id: GitHub id of the user.
+- so_id: Stack Overflow id of the user.
+
+users.csv
+- uid: id of the user
+- has_gh: indicate '1' if the user has a GitHub account, '0' for otherwise.
+- has_so: indicate '1' if the user has a Stack Overflow account, '0' for otherwise.
+
+user_answer_training.csv
+- uid: id of the user
+- qid: id of the question answered by the user
+- tags: the vocab used by the question seperated with a space
+
+user_favorite_training.csv
+- uid: id of the user
+- qid: id of the question answered by the user
+- tags: the vocab used by the question seperated with a space
+
+user_fork_training.csv
+- uid: id of the user
+- qid: id of the question answered by the user
+- tags: the vocab used by the question seperated with a space
